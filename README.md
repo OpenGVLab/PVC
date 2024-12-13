@@ -1,8 +1,9 @@
 # Progressive Visual Token Compression (PVC)
 
+[![Static Badge](https://img.shields.io/badge/arXiv-2412.09613-green)](https://arxiv.org/abs/2412.09613)
 [![Static Badge](https://img.shields.io/badge/🤗&nbsp;HuggingFace-checkpoint-blue)](https://huggingface.co/OpenGVLab/PVC-InternVL2-8B)
 
-The official implementation of the paper "PVC: Progressive Visual Token Compression for Unified Image and Video Processing in Large Vision-Language Models".
+The official implementation of the paper "[PVC: Progressive Visual Token Compression for Unified Image and Video Processing in Large Vision-Language Models](https://arxiv.org/abs/2412.09613)".
 
 We introduce the **Progressive Visual Token Compression (PVC)** in large vision-language models (VLMs), which unifies the visual inputs as videos and progressively compresses vision tokens across video frames. Our PVC achieves:
 
@@ -107,6 +108,19 @@ print(f'User: {question}\nAssistant: {response}')
 * [X]  release model and checkpoint
 * [ ]  release evaluation code
 * [ ]  release training code
+
+## 🖊️ Citation
+
+If you find this work helpful in your research, please consider citing:
+
+```bibtex
+@article{yang2024pvc,
+  title={PVC: Progressive Visual Token Compression for Unified Image and Video Processing in Large Vision-Language Models},
+  author={Yang, Chenyu and Dong, Xuan and Zhu, Xizhou and Su, Weijie and Wang, Jiahao and Tian, Hao and Chen, Zhe and Wang, Wenhai and Lu, Lewei and and Dai, Jifeng},
+  journal={arXiv preprint arXiv:2412.09613},
+  year={2024}
+}
+```
 
 ## 📃 License
 
