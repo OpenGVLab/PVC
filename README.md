@@ -103,6 +103,20 @@ response = model.chat(tokenizer, pixel_values, question, generation_config, data
 print(f'User: {question}\nAssistant: {response}')
 ```
 
+## 📊 Evaluation
+
+### Image Benchmarks & MVBench
+
+**Prepare data:** please follow [here](https://internvl.readthedocs.io/en/latest/get_started/eval_data_preparation.html) to prepare the data for evaluation.
+
+**Run evaluation:** use the following command to start the evaluation:
+
+```bash
+bash evaluate_launch.sh <checkpoint> <task>
+```
+
+For image benchmarks and MVBench, we use the evaluation codebase of [InternVL2](https://github.com/OpenGVLab/InternVL). Refer to [here](https://internvl.readthedocs.io/en/latest/internvl2.0/evaluation.html#) for more details.
+
 ## 📅 TODO List
 
 * [X]  release model and checkpoint
