@@ -115,7 +115,9 @@ print(f'User: {question}\nAssistant: {response}')
 bash evaluate_launch.sh <checkpoint> <task>
 ```
 
-For image benchmarks and MVBench, we use the evaluation codebase of [InternVL2](https://github.com/OpenGVLab/InternVL). Refer to [here](https://internvl.readthedocs.io/en/latest/internvl2.0/evaluation.html#) for more details.
+Currently supported tasks: `vqa-ai2d-test`, `vqa-chartqa-test`, `vqa-docvqa-val`, `vqa-docvqa-test`, `vqa-infovqa-val`, `vqa-infovqa-test`, `scienceqa`, `mme`, `mmbench-dev-en`, `mmbench-test-en`, `mmmu-val`, `seed`, `mvbench`.
+
+For image benchmarks and MVBench, we use the evaluation codebase of InternVL2. Refer to [here](https://internvl.readthedocs.io/en/latest/internvl2.0/evaluation.html#) for more details.
 
 ## 📅 TODO List
 
