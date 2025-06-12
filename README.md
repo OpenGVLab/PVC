@@ -1,6 +1,6 @@
 # Progressive Visual Token Compression (PVC)
 
-![Static Badge](https://img.shields.io/badge/CVPR-2025-red)
+[![Static Badge](https://img.shields.io/badge/CVPR-2025-red)](https://cvpr.thecvf.com/virtual/2025/poster/34313)
 [![Static Badge](https://img.shields.io/badge/arXiv-2412.09613-green)](https://arxiv.org/abs/2412.09613)
 [![Static Badge](https://img.shields.io/badge/🤗&nbsp;HuggingFace-checkpoint-blue)](https://huggingface.co/OpenGVLab/PVC-InternVL2-8B)
 
@@ -120,22 +120,17 @@ Currently supported tasks: `vqa-ai2d-test`, `vqa-chartqa-test`, `vqa-docvqa-val`
 
 For image benchmarks and MVBench, we use the evaluation codebase of InternVL2. Refer to [here](https://internvl.readthedocs.io/en/latest/internvl2.0/evaluation.html#) for more details.
 
-## 📅 TODO List
-
-* [X]  release model and checkpoint
-* [ ]  release evaluation code
-* [ ]  release training code
-
 ## 🖊️ Citation
 
 If you find this work helpful in your research, please consider citing:
 
 ```bibtex
-@article{yang2024pvc,
+@inproceedings{yang2025pvc,
   title={PVC: Progressive Visual Token Compression for Unified Image and Video Processing in Large Vision-Language Models},
-  author={Yang, Chenyu and Dong, Xuan and Zhu, Xizhou and Su, Weijie and Wang, Jiahao and Tian, Hao and Chen, Zhe and Wang, Wenhai and Lu, Lewei and and Dai, Jifeng},
-  journal={arXiv preprint arXiv:2412.09613},
-  year={2024}
+  author={Yang, Chenyu and Dong, Xuan and Zhu, Xizhou and Su, Weijie and Wang, Jiahao and Tian, Hao and Chen, Zhe and Wang, Wenhai and Lu, Lewei and Dai, Jifeng},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={24939--24949},
+  year={2025}
 }
 ```
 
